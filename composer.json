@@ -1,0 +1,11 @@
+{
+    "name": "testdirigent/github-package",
+    "description": "Composer package hosted on GitHub used in testing for Dirigent",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TestDirigent\\GithubPackage\\": "src/"
+        }
+    }
+}
